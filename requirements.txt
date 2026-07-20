@@ -1,0 +1,15 @@
+# LifeOS — Python Bağımlılıkları
+# Kurulum: pip install -r requirements.txt
+
+# ── BACKEND ──────────────────────────────────────────────
+fastapi==0.111.0          # RESTful API framework
+uvicorn[standard]==0.29.0 # ASGI sunucusu (FastAPI'yi çalıştırır)
+
+# ── NOTION API İLETİŞİMİ ─────────────────────────────────
+requests==2.32.3          # HTTP istemcisi
+
+# ── ORTAM DEĞİŞKENLERİ ───────────────────────────────────
+python-dotenv==1.0.1      # .env dosyasını okur
+
+# ── CORS & GÜVENLİK ──────────────────────────────────────
+python-multipart==0.0.9   # Form verisi için FastAPI gereksinimi

@@ -1,0 +1,26 @@
+name: lifeos_mobile
+description: LifeOS — Notion tabanlı kişisel yaşam sistemi için iOS/Android istemcisi.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  http: ^1.2.1
+  provider: ^6.1.2
+  shared_preferences: ^2.2.3
+  table_calendar: ^3.1.2
+  intl: ^0.19.0
+  flutter_markdown: ^0.7.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.2
+
+flutter:
+  uses-material-design: true

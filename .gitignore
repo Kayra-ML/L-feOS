@@ -1,0 +1,29 @@
+# ── GİZLİ DOSYALAR ───────────────────────────────────────
+.env
+*.env
+
+# ── PYTHON ───────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# ── IDE ───────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+
+# ── FLUTTER / DART (mobile/) ───────────────────────────────
+mobile/.dart_tool/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/.packages
+mobile/build/
+mobile/ios/Pods/
+mobile/ios/.symlinks/
+mobile/ios/Flutter/Flutter.podspec
+mobile/android/.gradle/
+mobile/**/*.iml
+mobile/*.g.dart

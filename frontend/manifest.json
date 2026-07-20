@@ -1,0 +1,23 @@
+{
+  "name": "LifeOS - Kişisel Yönetim",
+  "short_name": "LifeOS",
+  "description": "Z-Asistan, İkinci Beyin ve görev takibi ile yapay zeka destekli yaşam yönetim sistemi.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#a855f7",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' fill='%230a0a0a' rx='100'/%3E%3Cpath fill='%23a855f7' d='M256 128L128 384h80l48-128 48 128h80L256 128z'/%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' fill='%230a0a0a' rx='100'/%3E%3Cpath fill='%23a855f7' d='M256 128L128 384h80l48-128 48 128h80L256 128z'/%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
